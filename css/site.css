@@ -1,0 +1,141 @@
+body {
+  font-family: 'Helvetica Neue', Verdana, Helvetica, Arial, sans-serif;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 {
+  color: #000;
+}
+h1 {
+  font-size: 2.5em
+}
+
+h2 {
+  font-size: 2em
+}
+
+h3 {
+  font-size: 1.5em
+}
+
+a {
+  text-decoration: none;
+  color: #a01a0b;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+td.job-name {
+  cursor: pointer;
+}
+
+table { table-layout: fixed; }
+table th, table td { overflow: hidden; }
+
+.about {
+
+}
+/*
+#F75652 - red
+#33B23E
+#FDBC41
+#D3C0A2 - faux white
+
+*/
+
+div.media-body {
+  padding-left: 10px;
+}
+
+ul.media-list {
+  border: medium solid #999;
+  padding: 10px;
+  background-color: ghostwhite;
+  width: 400px;
+}
+
+ul.media-list a {
+  color: #080808;
+}
+
+/* JOB STATUS STUFF */
+div.media-left.red.normal {
+  width: 250px;
+  background-color: #F75651;
+  color: #111;
+  padding-right: 10px;
+}
+
+div.media-left.red.toggled {
+  width: 250px;
+  background-color: #F75651;
+  color: #111;
+  padding-right: 10px;
+}
+
+div.media-left.green {
+  width: 250px;
+  background-color: #33B23E;
+  color: #111;
+}
+div.media-left.yellow {
+  width: 250px;
+  background-color: #FDBC41;
+  color: #111;
+}
+
+div.media-left.red {
+  width: 250px;
+  background-color: #F75651;
+  color: #111;
+  padding-right: 10px;
+}
+
+/* END JOB STATUS STUFF */
+
+/* FB background #E9EAED
+*/
+html, body{
+  background-color: #E9EAED;
+}
+.pull-left + .media-body, .pull-right + .media-body {
+  display: block;
+  overflow: hidden;
+  zoom: 1;
+}
+
+.pipeline-button {
+  border: 0 none;
+  border-radius: 2px 2px 2px 2px;
+  color: #999;
+  cursor: pointer;
+  display: inline-block;
+  font-size: .75em;
+  width: 100px;
+  margin-bottom: 0;
+  margin-right: 3px;
+  margin-top: 0px;
+  padding: 7px 10px;
+
+  text-transform: none;
+  transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  /* auto */
+  text-align: center;
+  /* DELETE WHEN WIDTH AUTO */
+}
+
+.pipeline-button.dark {
+  background: none repeat scroll 0 0 #444444;
+  color: #FFFFFF;
+}
+.pipeline-button.dark:hover {
+  background: none repeat scroll 0 0 #666666;
+  color: #FFFFFF;
+}
+
+
